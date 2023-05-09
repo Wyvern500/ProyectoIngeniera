@@ -1,0 +1,513 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683640954034232, "dur":2471, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640954036716, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683640954036789, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683640954036807, "dur":173, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683640954037005, "dur":988, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640954037993, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959027630, "dur":95, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959027725, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959027766, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959027769, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959027775, "dur":30, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959027805, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959027813, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959027814, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959027821, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959027843, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959027854, "dur":216179, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683640954037504, "dur":499, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954038006, "dur":6915, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954044935, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683640954044942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954046725, "dur":904, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683640954047635, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683640954047713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954048123, "dur":9915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683640954058042, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683640954058218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954058229, "dur":4731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683640954063042, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683640954063195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954064010, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683640954065918, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683640954066077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954066164, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683640954068423, "dur":15819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1683640954084248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954084269, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1683640954086170, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1683640954086367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954086376, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1683640954088750, "dur":33056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954121812, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954123037, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954126456, "dur":29528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683640954155989, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954155998, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683640954158628, "dur":13457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954172092, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954174521, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954176194, "dur":17216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954193416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954204425, "dur":64994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954269485, "dur":33812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954303301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954303308, "dur":5281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954308642, "dur":16311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954324959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954324969, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954326309, "dur":17213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954343528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954343538, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954345218, "dur":22363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954367587, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954367598, "dur":13943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954381598, "dur":72567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954454171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954454182, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954457475, "dur":35774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954493254, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954493264, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954494901, "dur":31245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954526152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954526162, "dur":3411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954529627, "dur":33870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640954563503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640954563513, "dur":580934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955144501, "dur":13254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955157760, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640955157771, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955159217, "dur":27023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955186245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640955186255, "dur":267890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955454200, "dur":14908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955469113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640955469122, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955470860, "dur":15285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955486176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640955486183, "dur":93146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955579383, "dur":13307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955592694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640955592702, "dur":249439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955842196, "dur":52229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955894429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640955894437, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955896360, "dur":15642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955912008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640955912018, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955913917, "dur":12940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955926863, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640955926873, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955928477, "dur":47772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640955976253, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640955976263, "dur":363672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640956339990, "dur":87661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640956427658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640956427669, "dur":219977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640956648223, "dur":121894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640956770123, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640956770140, "dur":40236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640956810427, "dur":55428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640956865884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640956865894, "dur":34887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640956900844, "dur":41933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640956942782, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640956942793, "dur":98769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957041604, "dur":22051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957063660, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640957063686, "dur":2854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957066589, "dur":879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957067474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640957067484, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957068990, "dur":23853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957092849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640957092859, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957094527, "dur":882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957095414, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640957095425, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957097527, "dur":102554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957200086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640957200095, "dur":31344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957231488, "dur":118060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957349553, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640957349563, "dur":55153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957404770, "dur":27792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957432567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640957432599, "dur":188152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957620811, "dur":138987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640957759804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640957759814, "dur":638474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640958398555, "dur":313342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640958711903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683640958711914, "dur":315628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683640959027595, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1683640959027598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954037559, "dur":456, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954038015, "dur":6910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954044935, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1683640954045134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954049240, "dur":9837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1683640954059133, "dur":8883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683640954068022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954068033, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683640954069425, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683640954069581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954069590, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683640954071951, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1683640954072121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954073411, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1683640954075602, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683640954075741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954075983, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683640954078563, "dur":13584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683640954092153, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954092165, "dur":22816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683640954115037, "dur":8009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1683640954123052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954123060, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1683640954127103, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1683640954127252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954127620, "dur":15713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1683640954143399, "dur":52964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640954196369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954204447, "dur":64590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640954269106, "dur":32157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640954301269, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954301280, "dur":8260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640954309595, "dur":101721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640954411321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954411331, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640954413648, "dur":18001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640954431654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954431664, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640954433331, "dur":32312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640954465650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954465660, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640954467045, "dur":103428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640954570478, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640954570489, "dur":573806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955144359, "dur":35083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955179448, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640955179464, "dur":283788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955463309, "dur":22708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955486024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640955486036, "dur":347950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955834047, "dur":28060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955862112, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640955862123, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955863529, "dur":14686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955878221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640955878231, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955880071, "dur":14251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955894328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640955894339, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955896187, "dur":78727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640955974921, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640955974933, "dur":358030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640956333114, "dur":23826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640956356946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640956356956, "dur":138920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640956495932, "dur":34885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640956530824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640956530834, "dur":116841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640956647729, "dur":14016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640956661751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640956661761, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640956663179, "dur":27530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640956690714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640956690725, "dur":97080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640956787859, "dur":76823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640956864688, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640956864700, "dur":35271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640956900023, "dur":219051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640957119079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640957119088, "dur":5332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640957124469, "dur":203422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640957327897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640957327906, "dur":20574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640957348533, "dur":77717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640957426254, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640957426264, "dur":75093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640957501416, "dur":139512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640957640934, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640957640943, "dur":21016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640957662009, "dur":95105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640957757146, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640957757157, "dur":497966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640958255215, "dur":88472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640958343693, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958343704, "dur":72267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683640958416029, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1683640958416243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958418026, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1683640958419474, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1683640958419534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958419597, "dur":5231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1683640958424882, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1683640958424933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958424940, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1683640958426756, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683640958426804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958426811, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683640958428146, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683640958428195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958428202, "dur":12921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683640958441175, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683640958441225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958441232, "dur":7901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683640958449185, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683640958449233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958449240, "dur":3532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683640958453104, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683640958453173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958453180, "dur":4237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683640958457469, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683640958457518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958457526, "dur":12482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683640958470061, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1683640958470225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958470231, "dur":4339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1683640958474720, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683640958474794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958474801, "dur":9461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683640958484328, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1683640958484378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958484386, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1683640958486355, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683640958486406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958486502, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683640958487942, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1683640958488093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683640958488098, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1683640958490120, "dur":537491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954037546, "dur":463, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954038009, "dur":6918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954044935, "dur":12143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683640954057084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954057516, "dur":3858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683640954061450, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683640954062063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954062075, "dur":2495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683640954064633, "dur":8624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683640954073263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954073274, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683640954075515, "dur":7760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683640954083281, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954083293, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683640954084622, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683640954084784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954084794, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683640954086891, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1683640954087057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954087158, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1683640954090222, "dur":114164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954204392, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954204522, "dur":45829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954250411, "dur":30787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954281204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954281959, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954284699, "dur":18473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954303178, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954303216, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954305701, "dur":32202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954337909, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954337920, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954340894, "dur":20169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954361069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954361079, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954362858, "dur":14896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954377759, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954377770, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954379827, "dur":13715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954393547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954393557, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954395457, "dur":13701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954409165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954409175, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954410594, "dur":62073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954472672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954472682, "dur":7003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954479739, "dur":122011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640954601756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640954601766, "dur":542964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955144788, "dur":38187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955183008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640955183018, "dur":270779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955453854, "dur":13425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955467285, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640955467296, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955468704, "dur":27271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955495981, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640955495992, "dur":338470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955834517, "dur":21700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955856223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640955856233, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955858235, "dur":29928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955888168, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640955888179, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955890669, "dur":30381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955921056, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640955921067, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955922574, "dur":13928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640955936508, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640955936519, "dur":361056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956297642, "dur":18451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956316098, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640956316109, "dur":18478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956334642, "dur":13017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956347665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640956347675, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956349112, "dur":15296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956364414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640956364425, "dur":131113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956495606, "dur":14475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956510087, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640956510098, "dur":137600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956647757, "dur":41071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956688834, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640956688846, "dur":98654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956787562, "dur":48863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956836431, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640956836446, "dur":6022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956842527, "dur":70139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956912674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640956912683, "dur":25500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956938231, "dur":28576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640956966812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640956966822, "dur":105336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957072278, "dur":47565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957119849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640957119858, "dur":8119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957128024, "dur":52846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957180875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640957180884, "dur":2987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957183916, "dur":80733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957264655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640957264664, "dur":30330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957295041, "dur":66460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957361506, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640957361516, "dur":44439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957405999, "dur":25408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957431413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640957431423, "dur":70296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957501773, "dur":155788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957657566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640957657575, "dur":6636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957664256, "dur":86689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640957750951, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640957750961, "dur":251355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640958002473, "dur":162525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/PlayFab.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640958165004, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640958165015, "dur":250342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/PlayFab.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640958415431, "dur":200693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640958616131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683640958616142, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683640958618294, "dur":409318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640954037594, "dur":426, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640954038020, "dur":6904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640954044935, "dur":45665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1683640954090605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640954093108, "dur":21498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1683640954114663, "dur":386706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640954501374, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640954501383, "dur":28800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640954530238, "dur":32219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640954562492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640954562502, "dur":521623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955084202, "dur":92169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955176377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640955176388, "dur":277275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955453725, "dur":31292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955485023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640955485033, "dur":94180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955579273, "dur":13407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955592686, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640955592697, "dur":241670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955834425, "dur":40299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955874730, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640955874742, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955876450, "dur":18721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955895177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640955895188, "dur":21458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955916748, "dur":24705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640955941459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640955941469, "dur":390991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956332517, "dur":22851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956355374, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640956355385, "dur":140160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956495624, "dur":23252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956518882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640956518892, "dur":128579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956647529, "dur":25688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956673223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640956673259, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956674630, "dur":17483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956692118, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640956692129, "dur":95652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956787835, "dur":80331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956868171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640956868181, "dur":32539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956900780, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956901738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640956901748, "dur":18572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956920365, "dur":20946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956941317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640956941327, "dur":12732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956954111, "dur":860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640956955001, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640956955012, "dur":86404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957041464, "dur":47151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957088622, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640957088633, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957090835, "dur":29146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957119984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640957119990, "dur":66992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957187054, "dur":169417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957356476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640957356486, "dur":49193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957405748, "dur":74996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957480750, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640957480760, "dur":143724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957627400, "dur":40193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957667598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640957667608, "dur":8582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957676244, "dur":98136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640957774386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640957774396, "dur":481208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640958255680, "dur":34561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640958290247, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640958290258, "dur":125706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640958416019, "dur":49019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640958465045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640958465055, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683640958467246, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683640958467302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640958467312, "dur":4462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683640958471827, "dur":947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1683640958472780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640958472789, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1683640958474250, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683640958474305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640958474312, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683640958476298, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1683640958476353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640958476360, "dur":3490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1683640958479907, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683640958479959, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640958479972, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683640958481468, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1683640958481519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640958481526, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1683640958483353, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683640958483404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640958483419, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683640958485075, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1683640958485122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640958485129, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1683640958487794, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1683640958487862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683640958487869, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ivaan/OneDrive/Escritorio/TestBuild/AimTrainer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1683640958489629, "dur":537999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683640959246635, "dur":2698, "ph":"X", "name": "ProfilerWriteOutput" }
+,
